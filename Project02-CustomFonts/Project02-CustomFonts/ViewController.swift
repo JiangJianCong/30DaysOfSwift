@@ -8,8 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    
+    var data = ["space","使用UITableView","使用UITableViewDelegate","1234567","abcdef","##$$%%^^&&","910455361@qq.com"
+                "151250070","xxxx@qq.com"]
+    
+     var fontNames = ["MFTongXin_Noncommercial-Regular", "MFJinHei_Noncommercial-Regular", "MFZhiHei_Noncommercial-Regular", "Zapfino", "Gaspar Regular"]
+    
+    @IBOutlet weak var changeFontButton : UIButton!
+    @IBOutlet weak var fontTableView : UITableView!
+    @IBAction func changeFontDidTouch (_sender:AnyObject) {
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +33,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
 }
 
