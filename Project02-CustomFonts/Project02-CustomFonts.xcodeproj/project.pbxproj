@@ -14,6 +14,8 @@
 		B22070F72089E81400CB85FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22070F52089E81400CB85FC /* LaunchScreen.storyboard */; };
 		B22071022089E81400CB85FC /* Project02_CustomFontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22071012089E81400CB85FC /* Project02_CustomFontsTests.swift */; };
 		B220710D2089E81400CB85FC /* Project02_CustomFontsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220710C2089E81400CB85FC /* Project02_CustomFontsUITests.swift */; };
+		B2207193208A1E6B00CB85FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2207192208A1E6B00CB85FC /* MainViewController.swift */; };
+		B2207195208A345E00CB85FC /* ViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2207194208A345E00CB85FC /* ViewTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B220718F2089F2E900CB85FC /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 		B22071902089F2E900CB85FC /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 		B22071912089F30000CB85FC /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		B2207192208A1E6B00CB85FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B2207194208A345E00CB85FC /* ViewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				B22070F32089E81400CB85FC /* Assets.xcassets */,
 				B22070F52089E81400CB85FC /* LaunchScreen.storyboard */,
 				B22070F82089E81400CB85FC /* Info.plist */,
+				B2207192208A1E6B00CB85FC /* MainViewController.swift */,
+				B2207194208A345E00CB85FC /* ViewTableCell.swift */,
 			);
 			path = "Project02-CustomFonts";
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2207193208A1E6B00CB85FC /* MainViewController.swift in Sources */,
+				B2207195208A345E00CB85FC /* ViewTableCell.swift in Sources */,
 				B22070EF2089E81200CB85FC /* ViewController.swift in Sources */,
 				B22070ED2089E81200CB85FC /* AppDelegate.swift in Sources */,
 			);
