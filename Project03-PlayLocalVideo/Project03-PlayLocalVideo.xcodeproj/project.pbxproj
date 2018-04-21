@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B22071AB208B133C00CB85FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22071AA208B133C00CB85FC /* AppDelegate.swift */; };
-		B22071AD208B133C00CB85FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22071AC208B133C00CB85FC /* ViewController.swift */; };
+		B22071AD208B133C00CB85FC /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22071AC208B133C00CB85FC /* VideoViewController.swift */; };
 		B22071B0208B133C00CB85FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22071AE208B133C00CB85FC /* Main.storyboard */; };
 		B22071B2208B133E00CB85FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22071B1208B133E00CB85FC /* Assets.xcassets */; };
 		B22071B5208B133E00CB85FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22071B3208B133E00CB85FC /* LaunchScreen.storyboard */; };
 		B22071C0208B133E00CB85FC /* Project03_PlayLocalVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22071BF208B133E00CB85FC /* Project03_PlayLocalVideoTests.swift */; };
 		B22071CB208B133E00CB85FC /* Project03_PlayLocalVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22071CA208B133E00CB85FC /* Project03_PlayLocalVideoUITests.swift */; };
+		B22071DD208B1C5300CB85FC /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22071DC208B1C5300CB85FC /* VideoCell.swift */; };
+		B22071DF208B303C00CB85FC /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B22071DE208B303C00CB85FC /* 1.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		B22071A7208B133C00CB85FC /* Project03-PlayLocalVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project03-PlayLocalVideo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22071AA208B133C00CB85FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B22071AC208B133C00CB85FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B22071AC208B133C00CB85FC /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		B22071AF208B133C00CB85FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B22071B1208B133E00CB85FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B22071B4208B133E00CB85FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		B22071C6208B133E00CB85FC /* Project03-PlayLocalVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project03-PlayLocalVideoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22071CA208B133E00CB85FC /* Project03_PlayLocalVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project03_PlayLocalVideoUITests.swift; sourceTree = "<group>"; };
 		B22071CC208B133E00CB85FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22071DC208B1C5300CB85FC /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		B22071DE208B303C00CB85FC /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		B220719E208B133C00CB85FC = {
 			isa = PBXGroup;
 			children = (
+				B22071DE208B303C00CB85FC /* 1.mp4 */,
 				B22071A9208B133C00CB85FC /* Project03-PlayLocalVideo */,
 				B22071BE208B133E00CB85FC /* Project03-PlayLocalVideoTests */,
 				B22071C9208B133E00CB85FC /* Project03-PlayLocalVideoUITests */,
@@ -98,11 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				B22071AA208B133C00CB85FC /* AppDelegate.swift */,
-				B22071AC208B133C00CB85FC /* ViewController.swift */,
+				B22071AC208B133C00CB85FC /* VideoViewController.swift */,
 				B22071AE208B133C00CB85FC /* Main.storyboard */,
 				B22071B1208B133E00CB85FC /* Assets.xcassets */,
 				B22071B3208B133E00CB85FC /* LaunchScreen.storyboard */,
 				B22071B6208B133E00CB85FC /* Info.plist */,
+				B22071DC208B1C5300CB85FC /* VideoCell.swift */,
 			);
 			path = "Project03-PlayLocalVideo";
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B22071B5208B133E00CB85FC /* LaunchScreen.storyboard in Resources */,
+				B22071DF208B303C00CB85FC /* 1.mp4 in Resources */,
 				B22071B2208B133E00CB85FC /* Assets.xcassets in Resources */,
 				B22071B0208B133C00CB85FC /* Main.storyboard in Resources */,
 			);
@@ -256,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B22071AD208B133C00CB85FC /* ViewController.swift in Sources */,
+				B22071AD208B133C00CB85FC /* VideoViewController.swift in Sources */,
 				B22071AB208B133C00CB85FC /* AppDelegate.swift in Sources */,
+				B22071DD208B1C5300CB85FC /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
