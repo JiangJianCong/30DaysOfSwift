@@ -16,6 +16,10 @@
 		B220710D2089E81400CB85FC /* Project02_CustomFontsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220710C2089E81400CB85FC /* Project02_CustomFontsUITests.swift */; };
 		B2207193208A1E6B00CB85FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2207192208A1E6B00CB85FC /* MainViewController.swift */; };
 		B2207195208A345E00CB85FC /* ViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2207194208A345E00CB85FC /* ViewTableCell.swift */; };
+		B220719A208B0DB100CB85FC /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2207196208B0DB000CB85FC /* MFJinHei_Noncommercial-Regular.ttf */; };
+		B220719B208B0DB100CB85FC /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2207197208B0DB100CB85FC /* MFTongXin_Noncommercial-Regular.ttf */; };
+		B220719C208B0DB100CB85FC /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2207198208B0DB100CB85FC /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		B220719D208B0DB100CB85FC /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2207199208B0DB100CB85FC /* Gaspar Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +53,12 @@
 		B22071082089E81400CB85FC /* Project02-CustomFontsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project02-CustomFontsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B220710C2089E81400CB85FC /* Project02_CustomFontsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project02_CustomFontsUITests.swift; sourceTree = "<group>"; };
 		B220710E2089E81400CB85FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B220718E2089F2E900CB85FC /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
-		B220718F2089F2E900CB85FC /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
-		B22071902089F2E900CB85FC /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
-		B22071912089F30000CB85FC /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
 		B2207192208A1E6B00CB85FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B2207194208A345E00CB85FC /* ViewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTableCell.swift; sourceTree = "<group>"; };
+		B2207196208B0DB000CB85FC /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		B2207197208B0DB100CB85FC /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		B2207198208B0DB100CB85FC /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		B2207199208B0DB100CB85FC /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,10 @@
 		B22070E02089E81100CB85FC = {
 			isa = PBXGroup;
 			children = (
+				B2207199208B0DB100CB85FC /* Gaspar Regular.otf */,
+				B2207196208B0DB000CB85FC /* MFJinHei_Noncommercial-Regular.ttf */,
+				B2207197208B0DB100CB85FC /* MFTongXin_Noncommercial-Regular.ttf */,
+				B2207198208B0DB100CB85FC /* MFZhiHei_Noncommercial-Regular.ttf */,
 				B22070EB2089E81100CB85FC /* Project02-CustomFonts */,
 				B22071002089E81400CB85FC /* Project02-CustomFontsTests */,
 				B220710B2089E81400CB85FC /* Project02-CustomFontsUITests */,
@@ -105,10 +113,6 @@
 		B22070EB2089E81100CB85FC /* Project02-CustomFonts */ = {
 			isa = PBXGroup;
 			children = (
-				B22071912089F30000CB85FC /* Gaspar Regular.otf */,
-				B220718F2089F2E900CB85FC /* MFJinHei_Noncommercial-Regular.ttf */,
-				B22071902089F2E900CB85FC /* MFTongXin_Noncommercial-Regular.ttf */,
-				B220718E2089F2E900CB85FC /* MFZhiHei_Noncommercial-Regular.ttf */,
 				B22070EC2089E81200CB85FC /* AppDelegate.swift */,
 				B22070EE2089E81200CB85FC /* ViewController.swift */,
 				B22070F02089E81200CB85FC /* Main.storyboard */,
@@ -243,7 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B220719D208B0DB100CB85FC /* Gaspar Regular.otf in Resources */,
+				B220719B208B0DB100CB85FC /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
+				B220719C208B0DB100CB85FC /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				B22070F72089E81400CB85FC /* LaunchScreen.storyboard in Resources */,
+				B220719A208B0DB100CB85FC /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				B22070F42089E81400CB85FC /* Assets.xcassets in Resources */,
 				B22070F22089E81200CB85FC /* Main.storyboard in Resources */,
 			);
