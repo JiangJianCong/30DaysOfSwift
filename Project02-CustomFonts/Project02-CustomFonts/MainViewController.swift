@@ -10,25 +10,45 @@ import UIKit
 
 class MainViewController: UIViewController ,UITableViewDelegate,UITableViewDataSource{
     
-        var data = ["space","使用UITableView","使用UITableViewDelegate","1234567","abcdef","##$%^^&&","910455361@qq.com",
+    var data = ["space","使用UITableView","使用UITableViewDelegate","1234567","abcdef","##$%^^&&","910455361@qq.com",
                     "151250070","xxxx@qq.com"]
+    
+    var fontNames = ["MFTongXin_Noncommercial-Regular", "MFJinHei_Noncommercial-Regular", "MFZhiHei_Noncommercial-Regular", "Gaspar Regular"]
+    
+    var fontRowIndex = 0
     
     @IBOutlet weak var changeFontButton: UIButton!
     @IBOutlet weak var fontTableView: UITableView!
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    @IBAction func changeFontDidTouch (_ sender: AnyObject) {
         
+        fontRowIndex = (fontRowIndex + 1) % 4
+        print(fontNames[fontRowIndex])
+        fontTableView.reloadData()
+    }
+    
+    
+    /// 这里是返回tableView的行数
+    ///
+    /// - Parameters:
+    ///   - tableView:
+    ///   - section:
+    /// - Returns: tableView的行数
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
     }
     
+    /// 先添加tableview绑定到ViewController里，然后在ViewDidload里调用网络链接获取到网络数据，然后保存到一个类数组里，然后再加载完数据后调用绑定的
+    ///
+    /// - Parameters:
+    ///   - tableView:
+    ///   - indexPath:
+    /// - Returns:
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = fontTableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath) as! ViewTableCell
-        
         let text = data[indexPath.row]
-        print(text)
+        
         cell.textLabel?.text = text
-//        cell.textLabel?.textColor = UIColor.black
+        cell.textLabel?.font = UIFont(name: fontNames[fontRowIndex], size: 20)
         
         return cell
     }
@@ -37,8 +57,7 @@ class MainViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
     override func viewDidLoad() {
         super.viewDidLoad()
         fontTableView.dataSource = self
-        changeFontButton.layer.cornerRadius = 50
-
+        changeFontButton.layer.cornerRadius = 60
         // Do any additional setup after loading the view.
     }
 
@@ -48,14 +67,6 @@ class MainViewController: UIViewController ,UITableViewDelegate,UITableViewDataS
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }

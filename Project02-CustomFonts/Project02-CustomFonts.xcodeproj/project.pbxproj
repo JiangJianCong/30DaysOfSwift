@@ -85,10 +85,6 @@
 		B22070E02089E81100CB85FC = {
 			isa = PBXGroup;
 			children = (
-				B22071912089F30000CB85FC /* Gaspar Regular.otf */,
-				B220718F2089F2E900CB85FC /* MFJinHei_Noncommercial-Regular.ttf */,
-				B22071902089F2E900CB85FC /* MFTongXin_Noncommercial-Regular.ttf */,
-				B220718E2089F2E900CB85FC /* MFZhiHei_Noncommercial-Regular.ttf */,
 				B22070EB2089E81100CB85FC /* Project02-CustomFonts */,
 				B22071002089E81400CB85FC /* Project02-CustomFontsTests */,
 				B220710B2089E81400CB85FC /* Project02-CustomFontsUITests */,
@@ -109,6 +105,10 @@
 		B22070EB2089E81100CB85FC /* Project02-CustomFonts */ = {
 			isa = PBXGroup;
 			children = (
+				B22071912089F30000CB85FC /* Gaspar Regular.otf */,
+				B220718F2089F2E900CB85FC /* MFJinHei_Noncommercial-Regular.ttf */,
+				B22071902089F2E900CB85FC /* MFTongXin_Noncommercial-Regular.ttf */,
+				B220718E2089F2E900CB85FC /* MFZhiHei_Noncommercial-Regular.ttf */,
 				B22070EC2089E81200CB85FC /* AppDelegate.swift */,
 				B22070EE2089E81200CB85FC /* ViewController.swift */,
 				B22070F02089E81200CB85FC /* Main.storyboard */,
