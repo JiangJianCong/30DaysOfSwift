@@ -13,10 +13,12 @@ class BeginPageViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var signUpButton: UIButton!
     
+    @IBAction func getSegue(segue : UIStoryboardSegue) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
 
         // Do any additional setup after loading the view.

@@ -15,6 +15,7 @@
 		B220723C208C714B00CB85FC /* Project04_LoginPageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B220723B208C714B00CB85FC /* Project04_LoginPageTests.swift */; };
 		B2207247208C714B00CB85FC /* Project04_LoginPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2207246208C714B00CB85FC /* Project04_LoginPageUITests.swift */; };
 		B2207255208C71AE00CB85FC /* BeginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2207254208C71AE00CB85FC /* BeginPageViewController.swift */; };
+		B28BE7FF208C79B9008AF16A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BE7FE208C79B9008AF16A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B2207246208C714B00CB85FC /* Project04_LoginPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project04_LoginPageUITests.swift; sourceTree = "<group>"; };
 		B2207248208C714B00CB85FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2207254208C71AE00CB85FC /* BeginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginPageViewController.swift; sourceTree = "<group>"; };
+		B28BE7FE208C79B9008AF16A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B220722F208C714B00CB85FC /* LaunchScreen.storyboard */,
 				B2207232208C714B00CB85FC /* Info.plist */,
 				B2207254208C71AE00CB85FC /* BeginPageViewController.swift */,
+				B28BE7FE208C79B9008AF16A /* LoginViewController.swift */,
 			);
 			path = "Project04-LoginPage";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28BE7FF208C79B9008AF16A /* LoginViewController.swift in Sources */,
 				B2207229208C714A00CB85FC /* ViewController.swift in Sources */,
 				B2207227208C714A00CB85FC /* AppDelegate.swift in Sources */,
 				B2207255208C71AE00CB85FC /* BeginPageViewController.swift in Sources */,
