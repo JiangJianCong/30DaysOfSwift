@@ -27,7 +27,8 @@ class ViewController: UIViewController,UIWebViewDelegate, UITextFieldDelegate{
     ///   - web: <#web description#>
     func loadUrl(_ url:String , web:UIWebView ) {
         
-        let url = URL(string: url)
+        let url = URL(string: ("https://"+url))
+        
         let urlRequest = URLRequest(url: url!)
         print(urlRequest)
         web.loadRequest(urlRequest)
