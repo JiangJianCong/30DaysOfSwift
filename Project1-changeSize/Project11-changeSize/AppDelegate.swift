@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Project11-ChangeImageSize
+//  Project1-changeSize
 //
 //  Created by space on 2018/5/5.
 //  Copyright © 2018年 space. All rights reserved.
